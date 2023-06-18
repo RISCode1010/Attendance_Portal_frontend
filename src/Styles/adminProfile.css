@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.profileContainer{
+    position: fixed;
+    right: 0;
+    width: 83%;
+    height: 90vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.1px solid black;
+}
+
+.profileContainer .blackBox{
+    background: #d0cece;
+    width: 85%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgb(11, 15, 19) 0px 20px 30px -10px;
+}
+
+.profileContainer .img{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(2, 2, 2);
+    margin-right: 20px;
+}
+
+.profileContainer .img img{
+    border: 1px solid black;
+    width: 100%;
+    height: 85%;
+    /* margin: 5px; */
+}
+.profileContainer .img .name{
+    height:15%;
+    width: 100%;
+    /* color: rgb(26, 26, 26);
+    font-weight: 600;
+    margin: 0 5px 0 5px; */
+    background: #262626;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profileContainer .name h2{
+    color: rgb(232, 230, 230);
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.profileContainer .infoBox{
+    width: 580px;
+    height: 407px;
+    background: #262626;
+}
+
+.profileContainer table { 
+	width: 480px; 
+	border-collapse: collapse; 
+	margin:35px auto;
+    /* border: 1px solid black; */
+}
+
+.profileContainer table tr{
+    /* padding-left: 30px; */
+    height: 50px;
+    /* border: 1px solid black; */
+}
+
+.profileContainer .infoBox .table_border td,th{
+    /* border: 1px solid rgb(255, 255, 255); */
+    padding-left: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #e6e3e3;
+}
+
+.profileContainer table th{
+    text-align: left;
+    color: #b1aeae;
+}
+
+.profileContainer table td{
+    text-align: left;
+    /* border: 1px solid white; */
+    width: 60%;
+  }

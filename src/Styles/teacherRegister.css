@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.teacherRegistercontainer{
+    position: fixed;
+    right: 0;
+    width: 83%;
+    height: 90vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.1px solid black;
+}
+
+.teacherRegistercontainer .contactForm h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.teacherRegistercontainer .contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.teacherRegistercontainer .contactForm .inputBox input{
+    
+    width: 100%;
+    padding: 8px 4px;
+    background-color: rgb(215, 215, 215);
+    font-size: 16px;
+    margin: 6px 0;
+    border: none;
+    /* border: 1px solid rgb(91, 90, 90); */
+    outline: none;
+    resize: none;
+}
+
+.teacherRegistercontainer .contactForm .inputBox button{
+    width: 100%;
+    background: #000000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.teacherRegistercontainer .contactForm .inputBox select{
+    
+    width: 100%;
+    padding: 8px 4px;
+    background-color: rgb(215, 215, 215);
+    font-size: 16px;
+    margin: 6px 0;
+    border: none;
+    /* border: 1px solid rgb(91, 90, 90); */
+    outline: none;
+    resize: none;
+}
+
+.teacherRegistercontainer .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.teacherRegistercontainer .btn{
+    display: flex;
+    justify-content: center;
+}
+
+.teacher_loader{
+    /* background: #fdfdfd; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-right: 42px; */
+}
+
+

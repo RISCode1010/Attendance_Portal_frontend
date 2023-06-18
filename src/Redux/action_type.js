@@ -1,0 +1,9 @@
+//ADMIN
+export const SET_ADMIN = "SET_ADMIN"
+export const GET_SUBJECTS = "GET_SUBJECTS"
+
+//TEACHER
+export const SET_TEACHER = "SET_TEACHER"
+
+//STUDENT
+export const SET_STUDENT = "SET_STUDENT"
